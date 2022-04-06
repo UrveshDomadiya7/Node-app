@@ -3,7 +3,7 @@ const app = express();
 
 app.get('/healthcheck', (req, res)=>{
     if(process.env.ENV_NODE === "production")
-        res.status(200).send({"code": 2000, "msg": "Production Mode: Healthcheck is success Meet Manvar!"})
+        res.status(200).send({"code": 2000, "msg": "Production Mode: Healthcheck is success urvesh!"})
     else
         res.status(200).send({"code": 2000, "msg": "Local Mode: Healthcheck is success!"})
 })
