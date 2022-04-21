@@ -1,7 +1,7 @@
 {
   "containerDefinitions": [{
       "name": "pink-slon",
-      "image": "133631580572.dkr.ecr.us-east-1.amazonaws.com/repoforecr:latest",
+      "image": "public.ecr.aws/w9g7w6e8/node-app:latest",
       "cpu": 10,
       "memory": 500,
       "essential": true,
