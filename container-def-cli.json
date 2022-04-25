@@ -2,8 +2,8 @@
   "containerDefinitions": [{
       "name": "aws-ecs-typescript-container",
       "image": "public.ecr.aws/w9g7w6e8/node-app:latest",
-      "cpu": 256,
-      "memory": 500,
+      "cpu": 100,
+      "memory": 100,
       "essential": true,
       "portMappings": [
         {
