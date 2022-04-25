@@ -13,6 +13,10 @@
     }
   ],
   "family": "aws-ecs-typescript-task",
-  "networkMode": "awsvpc"
+  "networkMode": "awsvpc",
+  "compatibilities": [
+    "EC2",
+    "FARGATE"
+  ]
 
 }
