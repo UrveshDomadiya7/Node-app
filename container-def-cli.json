@@ -14,7 +14,7 @@
   ],
   "family": "aws-ecs-typescript-task",
   "networkMode": "awsvpc",
-  "compatibilities": [
+  "requiresCompatibilities": [
     "EC2",
     "FARGATE"
   ]
