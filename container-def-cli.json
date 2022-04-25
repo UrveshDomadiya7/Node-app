@@ -2,8 +2,6 @@
   "containerDefinitions": [{
       "name": "aws-ecs-typescript-container",
       "image": "688164270212.dkr.ecr.us-east-1.amazonaws.com/node-app:latest",
-      "cpu": 256,
-      "memory": 512,
       "essential": true,
       "portMappings": [
         {
