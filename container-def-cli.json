@@ -12,8 +12,8 @@
   ],
   "family": "aws-ecs-typescript-task",
   "networkMode": "awsvpc",
-  "executionRoleArn": "arn:aws:iam::123456789012:role/ecsTaskExecutionRole",
-  "taskRoleArn": "arn:aws:iam::123456789012:role/AmazonECSTaskS3BucketRole",
+  "executionRoleArn": "arn:aws:iam::688164270212:role/ecsTaskExecutionRole",
+  "taskRoleArn": "arn:aws:iam::688164270212:role/AmazonECSTaskS3BucketRole",
   "requiresCompatibilities": [
     "EC2",
     "FARGATE"
