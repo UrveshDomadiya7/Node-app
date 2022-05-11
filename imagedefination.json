@@ -1,0 +1,6 @@
+[
+    {
+        "name": "ECS-project-Container",
+        "imageUri": "public.ecr.aws/w9g7w6e8/node-app:latest"
+    }
+]
